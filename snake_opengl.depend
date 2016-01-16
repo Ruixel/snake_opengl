@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1452944348 source:/home/bag/c++/snake_opengl/src/main.cpp
+	<GL/glew.h>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	"water.h"
+
+1452918298 source:/home/bag/c++/snake_opengl/src/rawModel.cpp
+	"rawModel.h"
+
+1452918298 /home/bag/c++/snake_opengl/include/rawModel.h
+	<GL/glew.h>
+	<SFML/OpenGL.hpp>
+	<vector>
+
+1452920138 source:/home/bag/c++/snake_opengl/src/Shader.cpp
+	"../include/Shader.h"
+
+1452920127 /home/bag/c++/snake_opengl/include/Shader.h
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<GL/glew.h>
+
+1452925201 source:/home/bag/c++/snake_opengl/src/water.cpp
+	"water.h"
+
+1452948968 /home/bag/c++/snake_opengl/include/water.h
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<SFML/System.hpp>
+	"rawModel.h"
+	"Shader.h"
+
